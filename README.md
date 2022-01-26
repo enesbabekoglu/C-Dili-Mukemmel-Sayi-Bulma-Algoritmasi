@@ -1,4 +1,4 @@
-# C-Dili-Mukemmel-Sayi-Bulma-Algoritmasi
+# C-Mukemmel-Sayi-Bulma-Algoritmasi
 C Dilinde Mükemmel Sayı Bulma Algoritması
 
 MÜKEMMEL SAYI NEDİR?
