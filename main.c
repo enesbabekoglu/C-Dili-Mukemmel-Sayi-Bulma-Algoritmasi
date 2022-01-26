@@ -21,26 +21,25 @@ int girilenSayi, toplam = 0;
 
 for(;;){
 
-printf("Sayi Girin: ");
-scanf("%d", &girilenSayi);
+  printf("Sayi Girin: ");
+  scanf("%d", &girilenSayi);
 
-printf("Girilen Sayi: %d\n\n", girilenSayi);
+  printf("Girilen Sayi: %d\n\n", girilenSayi);
 
-int i = 1;
-while(i<girilenSayi){
+  int i = 1;
+  while(i<girilenSayi){
 
-if(girilenSayi%i == 0){
-toplam += i;
-}
+    if(girilenSayi%i == 0){
+      toplam += i;
+    }
 
-i++;
+    i++;
+  }
 
-}
+  if(toplam == girilenSayi) printf("%d Mukemmel sayidir.\n\n", girilenSayi);
+  else printf("%d Mukemmel sayi degildir.\n\n", girilenSayi);
 
-if(toplam == girilenSayi) printf("%d Mukemmel sayidir.\n\n", girilenSayi);
-else printf("%d Mukemmel sayi degildir.\n\n", girilenSayi);
-
-toplam = 0;
+  toplam = 0; // Burada toplam değerini bir sonraki sorgu için sıfırlıyoruz.
 
 }
 
